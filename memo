@@ -1,0 +1,20 @@
+How to put twitter bot on the Heroku server
+    1. Things you need;
+        1. git
+        2. heroku login
+    2. Process
+        1. create Heroku app
+        2. jump to the dir with cd command
+        3. git init
+        4. heroku git:remote -a __appName__ 
+            - remote opperation, remote the app
+        5. git add .
+            - add all the changes to be ready
+        6. commit 
+        7. git push herou master 
+            - done!!!
+    3. Note
+        1. You need to create a file called "Procfile" in the dir.
+        2. Write "worker: node index.js" 
+        3. Upload the changes and push to heroku server.
+        
